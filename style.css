@@ -1,0 +1,192 @@
+@font-face {
+    font-family: qatarfont;
+    src: url('Qatar2022/Qatar2022Arabic-Bold.ttf');
+}
+
+*{
+    font-family:qatarfont;
+}
+
+p{
+    font-size:24px;
+    line-height: 2;
+}
+h3{
+    font-size:20px;
+}
+
+h2{
+        font-size: 70px;
+        font-weight: 600;
+        background-image: linear-gradient(to left, #553c9a, #b393d3);
+        color: transparent;
+        background-clip: text;
+        -webkit-background-clip: text;
+}
+/* first section */
+#home{
+    background-color: #6E0620;
+    padding: 2% 8% ; 
+    color:#fff;
+    
+}
+.header{
+    margin-bottom:20px;
+     font-size:4rem;
+ }
+ .logo{
+    background-color:#6E0620;
+    color:#fff;
+    margin-bottom:2px;
+}
+ .rot{
+    transform: rotate(0deg);
+    margin-left:60px;
+    margin-bottom:10px;
+    box-shadow: -1rem 1.75rem 2rem -.4rem rgba(50, 0, 100, .1), -.2rem .2rem .5rem rgba(50, 0, 100, .05), inset .5rem -.5rem .5rem -.4rem rgba(50, 0, 100, .1);
+    animation: fadeInFromTop .5s linear forwards,floating ease 4s infinite;
+} 
+@keyframes fadeInFromTop{
+    from { 
+        opacity:0;
+        transform:translateY(0);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+@keyframes floating{
+    0%{
+        transform:translate(0%,0%) rotate(-3deg)
+    }
+    25%{
+        transform:translate(0%,0%) rotate(3deg)
+    }
+    50%{
+        transform:translate(10%,0%) rotate(-3deg)
+    }
+    75%{
+        transform:translate(5%,0%) rotate(-3deg)
+    }
+    100%{
+        transform:translate(0%,0%) rotate(3deg)
+    }
+}
+.mynav{
+    font-size:22px;
+    margin:0 20px ;
+}
+.nav-item{
+    padding: 0 15px ;
+    margin-bottom:30px;
+}
+
+.skill-row{
+    margin:50px auto 50px auto;
+    width:50%;
+    text-align: left;
+    line-height:2;
+   
+}
+.btn{
+    margin: 10px 10px;
+}
+
+/* 2nd Section */
+
+#features{
+    background-color:rgb(252, 252, 252);
+    padding: 8% 6%;
+    text-align: center;
+    position: relative;
+}
+.feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color: #6E0620;
+    margin-bottom: 1rem;
+  }
+
+
+/* 3rd Section */
+#testimonials{
+    padding: 7% 15% ;
+    background-color:#6E0620;
+    text-align: center;
+    color:#fff;
+}
+.item{
+    width: 25%;
+    margin-right: 5%;
+}
+
+/* 4th Section */
+#info{
+    background-color:rgb(225, 196, 196);
+    color:#fff;
+    font-size: 3rem;
+}
+#info p{
+    color:#6E0620;
+   
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: Center;
+    color: #6E0620;
+  }
+.skill{
+    width:70%;
+   margin-right: 310px;
+   float: left;
+
+}
+.skill1{
+    width:70%;
+    float:right;
+    margin-left:300px;
+
+}
+
+.skills{
+    padding: 5% 10%;
+}
+
+/* 5th section */
+
+#cta{
+    background-color:#6E0620;
+    text-align: center;
+    color:#fff;
+    padding: 10% 10%;
+    align-items: center;
+}
+
+
+.img-responsive{
+    margin-left:590px;
+    width: 20%;
+}
+
+
+/* footer section */
+#footer{
+    text-align: center;
+    padding: 3% 33% ;
+    background-color: #66051d;
+    text-decoration: none;
+    color:#fff;
+    box-shadow:none;
+}
+#footer p{
+margin-top:10px;
+font-size: 14px;
+}
